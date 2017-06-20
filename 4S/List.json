@@ -5,8 +5,12 @@
             "URI": "http://wanglubo.com/Data/4S/BooksData.json"
         },
         {
-            "FileName": "ST.pdf",
+            "FileName": "ZZTJ.pdf",
             "URI": "http://wanglubo.com/Data/4S/ZZTJ.pdf"
+        },
+        {
+            "FileName": "ZZTJ.jpg",
+            "URI": "http://wanglubo.com/Data/4S/ZZTJ.jpg"
         }
     ]
 }
