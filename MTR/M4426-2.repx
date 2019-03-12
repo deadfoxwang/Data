@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="18.2.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" Margins="0, 0, 0, 0" PaperKind="A4" PageWidth="2100" PageHeight="2970" Version="18.2" DataSource="#Ref-0" Dpi="254" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="DetailBand" Name="Detail1" HeightF="370" Dpi="254">
+      <MultiColumn Ref="3" ColumnWidth="1050" Layout="AcrossThenDown" Mode="UseColumnWidth" />
+      <Controls>
+        <Item1 Ref="4" ControlType="XRPanel" Name="panel1" CanGrow="false" SizeF="1050,370" LocationFloat="0, 0" Dpi="254" Borders="None">
+          <Controls>
+            <Item1 Ref="5" ControlType="XRLabel" Name="label3" Multiline="true" Text="label3" SizeF="980,55" LocationFloat="46.1666679, 294.38208" Dpi="254" Font="Microsoft YaHei UI, 11pt, charSet=134" Padding="5,5,0,0,254" Borders="None">
+              <ExpressionBindings>
+                <Item1 Ref="6" Expression="[City]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="7" UseFont="false" UseBorders="false" />
+            </Item1>
+            <Item2 Ref="8" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" SizeF="980,55" LocationFloat="46.1666679, 86.77083" Dpi="254" Font="Microsoft YaHei UI, 11pt, charSet=134" Padding="5,5,0,0,254" Borders="None">
+              <ExpressionBindings>
+                <Item1 Ref="9" Expression="[JobTitle]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="10" UseFont="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="11" ControlType="XRLabel" Name="label5" Multiline="true" AutoWidth="true" Text="label5" SizeF="980,110" LocationFloat="46.1666679, 189.871674" Dpi="254" Font="Microsoft YaHei UI, 11pt, charSet=134" Padding="5,5,0,0,254" Borders="None" BorderWidth="1">
+              <EditOptions Ref="12" Enabled="true" />
+              <ExpressionBindings>
+                <Item1 Ref="13" Expression="[Address]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="14" UseFont="false" UseBorders="false" UseBorderWidth="false" />
+            </Item3>
+            <Item4 Ref="15" ControlType="XRLabel" Name="label4" Multiline="true" AutoWidth="true" CanShrink="true" Text="label4" SizeF="980,55" LocationFloat="46.1666679, 137.26918" Dpi="254" Font="Microsoft YaHei UI, 11pt, charSet=134" Padding="5,5,0,0,254" Borders="None">
+              <ExpressionBindings>
+                <Item1 Ref="16" Expression="[Company]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="17" UseFont="false" UseBorders="false" />
+            </Item4>
+            <Item5 Ref="18" ControlType="XRLabel" Name="label1" Multiline="true" AutoWidth="true" Text="label1" SizeF="980,55" LocationFloat="46.1666679, 35.875" Dpi="254" Font="Microsoft YaHei UI, 11pt, charSet=134" Padding="5,5,0,0,254" Borders="None">
+              <ExpressionBindings>
+                <Item1 Ref="19" Expression="[Name]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="20" UseFont="false" UseBorders="false" />
+            </Item5>
+          </Controls>
+          <StylePriority Ref="21" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="22" ControlType="TopMarginBand" Name="TopMargin1" HeightF="0" Dpi="254" />
+    <Item3 Ref="23" ControlType="BottomMarginBand" Name="BottomMargin1" HeightF="0" Dpi="254" />
+  </Bands>
+  <ReportPrintOptions Ref="24" DetailCountOnEmptyDataSource="16" />
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v18.2" Name="objectDataSource" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZSI+PERhdGFTb3VyY2UgVHlwZT0iTVRSLldDRS5OYW1lQ2FyZE1hbmFnZW1lbnQuTW9kZWxzLk5hbWVDYXJkRXgsIE1UUi5XQ0UuTmFtZUNhcmRNYW5hZ2VtZW50LCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgLz48L09iamVjdERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
