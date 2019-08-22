@@ -1,29 +1,37 @@
 {
-  "FC Template": [
+  "ToolList": [
     {
-      "name": "HKID",
-      "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-      "Templates": "HKID,HKID-ENG"
+      "FC Template": [
+        {
+          "name": "HKID",
+          "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
+          "Templates": "HKID,HKID-ENG"
+        },
+        {
+          "name": "PASSPORT",
+          "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
+          "Templates": "PASSPORT,PASSPORT-ENG"
+        },
+        {
+          "name": "MIXED",
+          "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
+          "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
+        }
+      ]
     },
     {
-      "name": "PASSPORT",
-      "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-      "Templates": "PASSPORT,PASSPORT-ENG"
+      "BaiDU AI": [
+        "T6",
+        "T7",
+        "T8"
+      ]
     },
     {
-      "name": "MIXED",
-      "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-      "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
+      "Google AI": [
+        "T6",
+        "T7",
+        "T8"
+      ]
     }
-  ],
-  "BaiDU AI": [
-    "T6",
-    "T7",
-    "T8"
-  ],
-  "Google AI": [
-    "T6",
-    "T7",
-    "T8"
   ]
 }
