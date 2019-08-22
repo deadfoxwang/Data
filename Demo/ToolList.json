@@ -5,17 +5,23 @@
         {
           "name": "HKID",
           "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-          "Templates": "HKID,HKID-ENG"
+          "parameters": {
+            "Templates": "HKID,HKID-ENG"
+          }
         },
         {
           "name": "PASSPORT",
           "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-          "Templates": "PASSPORT,PASSPORT-ENG"
+          "parameters": {
+            "Templates": "PASSPORT,PASSPORT-ENG"
+          }
         },
         {
           "name": "MIXED",
           "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload",
-          "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
+          "parameters": {
+            "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
+          }
         }
       ]
     },
