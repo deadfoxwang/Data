@@ -4,7 +4,7 @@
             "FC Template": [
                 {
                     "api": "fc",
-                    "name": "HKID",
+                    "name": "HKID (VPN)",
                     "parameters": {
                         "Templates": "HKID,HKID-ENG"
                     },
@@ -12,7 +12,7 @@
                 },
                 {
                     "api": "fc",
-                    "name": "PASSPORT",
+                    "name": "PASSPORT (VPN)",
                     "parameters": {
                         "Templates": "PASSPORT,PASSPORT-ENG"
                     },
@@ -20,11 +20,59 @@
                 },
                 {
                     "api": "fc",
-                    "name": "MIXED",
+                    "name": "MIXED (VPN)",
                     "parameters": {
                         "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
                     },
                     "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "HKPassport",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/HKPassport"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "HKIDCapture",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/HKIDCapture"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "IDCardCapture",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/IDCardCapture"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "Address",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/WebOCR"
                 }
             ]
         },
